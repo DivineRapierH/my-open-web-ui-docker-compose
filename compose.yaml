@@ -5,5 +5,10 @@ services:
       - "8080"
     volumes:
       - open-webui:/app/backend/data
+    environment:
+      - ENABLE_RAG_WEB_SEARCH=true
+      - RAG_WEB_SEARCH_ENGINE=duckduckgo
+      - WEBUI_NAME="Chat Lifan"
+      - WEBUI_URL="${WEBUI_URL}"
 volumes:
   open-webui:

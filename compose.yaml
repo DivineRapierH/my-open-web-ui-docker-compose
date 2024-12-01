@@ -1,0 +1,9 @@
+services:
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:0.4.7
+    expose:
+      - "8080"
+    volumes:
+      - open-webui:/app/backend/data
+volumes:
+  open-webui:

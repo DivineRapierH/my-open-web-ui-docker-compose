@@ -8,7 +8,7 @@ services:
     environment:
       - ENABLE_RAG_WEB_SEARCH=true
       - RAG_WEB_SEARCH_ENGINE=duckduckgo
-      - WEBUI_NAME="Chat Lifan"
+      - WEBUI_NAME="Lifan's AI Chatbot"
       - WEBUI_URL="${WEBUI_URL}"
 volumes:
   open-webui:

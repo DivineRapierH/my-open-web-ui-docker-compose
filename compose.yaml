@@ -1,6 +1,6 @@
 services:
   openwebui:
-    image: ghcr.io/open-webui/open-webui:0.4.7
+    image: ghcr.io/open-webui/open-webui:0.4.8
     expose:
       - "8080"
     volumes:

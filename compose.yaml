@@ -1,6 +1,6 @@
 services:
   openwebui:
-    image: ghcr.io/open-webui/open-webui:0.5.18
+    image: ghcr.io/open-webui/open-webui:0.5.20
     restart: unless-stopped
     expose:
       - "8080"
